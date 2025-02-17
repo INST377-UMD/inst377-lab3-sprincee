@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-footer {
+    background-color: #666;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+nav {
+    background-color: #0066cc;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #003366;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #e6fff2;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #99ffa3;
+}
+
+.sidebar:hover {
+    background-color: #66ffa3
+}
+
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+form input[type="text"]:focus {
+    width: 300px;
+}
+
+select {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 0;
+}
